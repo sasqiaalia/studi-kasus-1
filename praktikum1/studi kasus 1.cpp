@@ -18,3 +18,20 @@ int main(){
 	cin >> n;
 	cout << "Masukan pembelian perliter : ";
 	cin >> liter;
+	
+	ofstream pos;
+    pos.open("SPBU.txt", ios::out);
+	pos << "PETAMINI\n";
+	pos << "--------------------------------\n";
+{
+	if (n == 1){
+		hasil = 7000 * liter;
+		pos << "Jenis BBM     : Pertalite\n";
+	}
+	else
+	if (n == 2){
+		hasil = 9000 * liter;
+    	pos << "Jenis BBM     : Pertamax\n";
+	}
+	total = hasil / liter; 
+}
