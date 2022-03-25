@@ -1,3 +1,11 @@
+/*
+KELOMPOK STORMI
+
+KRISNA CAKRA NINGRAT 2100018449
+ANELA INDRA 2100018454
+SASQIA AULIA NUR AINI 2100018456
+*/
+
 #include <iostream>
 #include <conio.h>
 #include <iomanip>
@@ -34,4 +42,14 @@ int main(){
     	pos << "Jenis BBM     : Pertamax\n";
 	}
 	total = hasil / liter; 
+}
+pos << "Nama Pelanggan		: " << nama << endl;
+pos << "Liter				: " << liter << endl;
+pos << "Harga/Liter			: Rp. " << total << endl;
+pos << "Total				: Rp. " << hasil << endl;
+pos << "================================\n";
+pos << "Terima kasih brodi";
+pos.close();
+
+return 0;
 }

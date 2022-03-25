@@ -1,0 +1,9 @@
+PETAMINI
+--------------------------------
+Jenis BBM     : Pertalite
+Nama Pelanggan		: KRISNA
+Liter				: 2
+Harga/Liter			: Rp. 7000
+Total				: Rp. 14000
+================================
+Terima kasih brodi
